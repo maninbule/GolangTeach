@@ -5,10 +5,12 @@ import (
 	s "strings"
 )
 
+/*
+ */
 var p = fmt.Println
 
 func main() {
-
+	p("Add:       ", "abc"+"edf")                     // 字符串加法
 	p("Contains:  ", s.Contains("test", "es"))        // 是否包含
 	p("Count:     ", s.Count("test", "t"))            //统计有几个子串
 	p("HasPrefix: ", s.HasPrefix("test", "te"))       // 是否有前缀
